@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Form practice</h1>
+    <div id="container">
+      <form class="form" action="" novalidate>
+        <fieldset>
+          <legend>Summary form</legend>
+          <div class="inputField">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="inputField">
+            <label for="country">Country</label>
+            <input type="text" name="country" id="country" required />
+          </div>
+          <div class="inputField">
+            <label for="postcode">Postal Code</label>
+            <input type="number" name="postcode" id="postcode" required />
+          </div>
+          <div class="inputField">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required />
+          </div>
+          <div class="inputField">
+            <label for="passwordConfirmation">Password confirmation</label>
+            <input
+              type="password"
+              name="passwordConfirmation"
+              id="passwordConfirmation"
+              required
+            />
+          </div>
+        </fieldset>
+        <div class="submitButton">
+          <button class="formSubmit" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
